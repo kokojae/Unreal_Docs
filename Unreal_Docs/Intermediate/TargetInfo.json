@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Unreal_Docs",
+			"Path": "D:\\WorkOutput\\Unreal_Docs\\Unreal_Docs\\Source\\Unreal_Docs.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Unreal_DocsEditor",
+			"Path": "D:\\WorkOutput\\Unreal_Docs\\Unreal_Docs\\Source\\Unreal_DocsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
