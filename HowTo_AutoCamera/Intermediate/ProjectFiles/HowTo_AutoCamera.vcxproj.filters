@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HowTo_AutoCamera.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{CF38800D-429B-436A-A63E-B08AC29C06AD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HowTo_AutoCamera.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HowTo_AutoCameraEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{88AB28A5-35D6-4E59-9B88-F98710A047FB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HowTo_AutoCamera">
+      <UniqueIdentifier>{3555C52A-5A35-4CE9-B41D-7D70DC569636}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HowTo_AutoCamera\HowTo_AutoCamera.Build.cs">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HowTo_AutoCamera\HowTo_AutoCamera.cpp">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HowTo_AutoCamera\HowTo_AutoCamera.h">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HowTo_AutoCamera\HowTo_AutoCameraGameModeBase.cpp">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HowTo_AutoCamera\HowTo_AutoCameraGameModeBase.h">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
