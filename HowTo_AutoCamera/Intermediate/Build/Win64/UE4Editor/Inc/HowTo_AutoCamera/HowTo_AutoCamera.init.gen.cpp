@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeHowTo_AutoCamera_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xF973915D,
-				0x2DB04F46,
+				0xB2037E8D,
+				0x3054AE55,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

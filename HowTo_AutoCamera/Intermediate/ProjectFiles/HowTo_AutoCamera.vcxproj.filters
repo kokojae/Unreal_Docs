@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HowTo_AutoCamera.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CF38800D-429B-436A-A63E-B08AC29C06AD}</UniqueIdentifier>
+      <UniqueIdentifier>{E7D6F661-DA30-47D2-870B-0951FA59A7F0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HowTo_AutoCamera.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{88AB28A5-35D6-4E59-9B88-F98710A047FB}</UniqueIdentifier>
+      <UniqueIdentifier>{FE9A8518-B2E6-4264-B633-0A7E9BCD40AB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HowTo_AutoCamera">
-      <UniqueIdentifier>{3555C52A-5A35-4CE9-B41D-7D70DC569636}</UniqueIdentifier>
+      <UniqueIdentifier>{C5663AB4-B81B-4242-9FAE-3301164D98C4}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\HowTo_AutoCamera\CameraDirector.cpp">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HowTo_AutoCamera\CameraDirector.h">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClInclude>
     <None Include="..\..\Source\HowTo_AutoCamera\HowTo_AutoCamera.Build.cs">
       <Filter>Source\HowTo_AutoCamera</Filter>
     </None>
