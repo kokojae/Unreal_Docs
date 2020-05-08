@@ -23,4 +23,11 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnyWhere)
+		AActor* CameraOne;
+
+	UPROPERTY(EditAnyWhere)
+		AActor* CameraTwo;
+
+	float TimeToNextCameraChange;
 };
