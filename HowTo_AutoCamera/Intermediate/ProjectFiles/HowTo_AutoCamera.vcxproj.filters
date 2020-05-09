@@ -48,4 +48,20 @@
       <Filter>Source\HowTo_AutoCamera</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\HowTo_AutoCamera\CraneActor.h">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HowTo_AutoCamera\DollyActor.h">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\HowTo_AutoCamera\CraneActor.cpp">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HowTo_AutoCamera\DollyActor.cpp">
+      <Filter>Source\HowTo_AutoCamera</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
