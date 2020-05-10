@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeHowTo_AutoCamera_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x52F18C1B,
+				0x5F8ACB22,
 				0x09560537,
 				METADATA_PARAMS(nullptr, 0)
 			};

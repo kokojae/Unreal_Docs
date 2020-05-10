@@ -24,10 +24,11 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnyWhere)
-		AActor* CameraOne;
+		AActor* Cameras[10];
 
-	UPROPERTY(EditAnyWhere)
-		AActor* CameraTwo;
+	APlayerController* ourPlayerController;
 
 	float TimeToNextCameraChange;
+
+	int NowCamNum;
 };
