@@ -1,0 +1,2 @@
+D:\WorkOutput\Unreal_Docs\HowTo_PlayerCamera\Intermediate\Build\Win64\UE4Editor\Development\HowTo_PlayerCamera\Definitions.HowTo_PlayerCamera.h
+D:\WorkOutput\Unreal_Docs\HowTo_PlayerCamera\Source\HowTo_PlayerCamera\HowTo_PlayerCamera.h

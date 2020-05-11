@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HowTo_PlayerCamera.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{BC1450A8-A46F-439B-AA7D-CF799D0053AF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HowTo_PlayerCamera.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HowTo_PlayerCameraEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{674F53E6-4679-466D-8F32-2682D1439F51}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HowTo_PlayerCamera">
+      <UniqueIdentifier>{E5CE22B8-CC7D-4255-9C5F-915C007D2045}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HowTo_PlayerCamera\HowTo_PlayerCamera.Build.cs">
+      <Filter>Source\HowTo_PlayerCamera</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HowTo_PlayerCamera\HowTo_PlayerCamera.cpp">
+      <Filter>Source\HowTo_PlayerCamera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HowTo_PlayerCamera\HowTo_PlayerCamera.h">
+      <Filter>Source\HowTo_PlayerCamera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HowTo_PlayerCamera\HowTo_PlayerCameraGameModeBase.cpp">
+      <Filter>Source\HowTo_PlayerCamera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HowTo_PlayerCamera\HowTo_PlayerCameraGameModeBase.h">
+      <Filter>Source\HowTo_PlayerCamera</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
