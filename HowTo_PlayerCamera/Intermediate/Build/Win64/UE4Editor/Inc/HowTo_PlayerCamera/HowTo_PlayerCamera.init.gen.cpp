@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeHowTo_PlayerCamera_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xD18217DC,
-				0x6EF452AF,
+				0xE2D47948,
+				0x4053F3BA,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

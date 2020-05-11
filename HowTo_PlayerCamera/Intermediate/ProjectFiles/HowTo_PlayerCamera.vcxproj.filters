@@ -42,4 +42,14 @@
       <Filter>Source\HowTo_PlayerCamera</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\HowTo_PlayerCamera\MyPawn.h">
+      <Filter>Source\HowTo_PlayerCamera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\HowTo_PlayerCamera\MyPawn.cpp">
+      <Filter>Source\HowTo_PlayerCamera</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
