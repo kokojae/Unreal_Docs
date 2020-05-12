@@ -37,6 +37,32 @@ void AMyPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	// "Grow" 액션에 따라 키우고 줄이는 것을 처리합니다
+	{
+		float CurrentScale = OurVisibleComponent->GetComponentScale().X;
+		if (bGrowing)
+		{
+			// 1 초에 걸쳐 두 배 크기로 키웁니다
+			CurrentScale += DeltaTime;
+		}
+		else
+		{
+			// 키운 속도의 절반의 속도로 줄입니다
+			CurrentScale -= (DeltaTime * 0.5f);
+		}
+		// 시작 크기 아래로 줄거나 두 배 이상으로 키우지 않도록 합니다.
+		CurrentScale = FMath::Clamp(CurrentScale, 1.0f, 2.0f);
+		OurVisibleComponent->SetWorldScale3D(FVector(CurrentScale));
+	}
+
+	// "MoveX" 와 "MoveY" 축에 따라 이동을 처리합니다
+	{
+		if (!CurrentVelocity.IsZero())
+		{
+			FVector NewLocation = GetActorLocation() + (CurrentVelocity * DeltaTime);
+			SetActorLocation(NewLocation);
+		}
+	}
 }
 
 // Called to bind functionality to input
@@ -44,5 +70,34 @@ void AMyPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	// "Grow" 키를 누르거나 뗄 때 반응합니다
+	InputComponent->BindAction("Grow", IE_Pressed, this, &AMyPawn::StartGrowing);
+	InputComponent->BindAction("Grow", IE_Released, this, &AMyPawn::StopGrowing);
+
+	// "MoveX" 와 "MoveY" 두 이동 충의 값에 매 프레임 반응합니다
+	InputComponent->BindAxis("MoveX", this, &AMyPawn::Move_XAxis);
+	InputComponent->BindAxis("MoveY", this, &AMyPawn::Move_YAxis);
+}
+
+void AMyPawn::Move_XAxis(float AxisValue)
+{
+	// 초당 100 유닛을 앞 또는 뒤로 움직입니다
+	CurrentVelocity.X = FMath::Clamp(AxisValue, -1.0f, 1.0f) * 100.0f;
+}
+
+void AMyPawn::Move_YAxis(float AxisValue)
+{
+	// 초당 100 유닛을 오른쪽 또는 왼쪽으로 움직입니다
+	CurrentVelocity.Y = FMath::Clamp(AxisValue, -1.0f, 1.0f) * 100.0f;
+}
+
+void AMyPawn::StartGrowing()
+{
+	bGrowing = true;
+}
+
+void AMyPawn::StopGrowing()
+{
+	bGrowing = false;
 }
 

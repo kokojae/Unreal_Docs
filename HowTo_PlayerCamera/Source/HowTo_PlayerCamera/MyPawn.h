@@ -28,4 +28,14 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		USceneComponent* OurVisibleComponent;
+
+	//입력 함수
+	void Move_XAxis(float AxisValue);
+	void Move_YAxis(float AxisValue);
+	void StartGrowing();
+	void StopGrowing();
+
+	//입력 변수
+	FVector CurrentVelocity;
+	bool bGrowing;
 };
