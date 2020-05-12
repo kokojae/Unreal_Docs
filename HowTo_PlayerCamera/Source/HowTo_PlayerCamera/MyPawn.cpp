@@ -61,32 +61,16 @@ void AMyPawn::Tick(float DeltaTime)
 
 	// "MoveX" 와 "MoveY" 축에 따라 이동을 처리합니다
 	{
-		if (CurrentVelocity.X > 0)
-		{
-				vForce.X += fAcceleration;
-		}
-		else if (CurrentVelocity.X < 0)
-		{
-				vForce.X -= fAcceleration;
-		}
+		if (CurrentVelocity.X != 0)
+			vForce.X += fAcceleration * (CurrentVelocity.X / FMath::Abs(CurrentVelocity.X));
 		else
-		{
 			vForce.X -= vForce.X / fDrag;
-		}
 		vForce.X = FMath::Clamp(vForce.X, -fSpeed, fSpeed);
 
-		if (CurrentVelocity.Y > 0)
-		{
-			vForce.Y += fAcceleration;
-		}
-		else if (CurrentVelocity.Y < 0)
-		{
-			vForce.Y -= fAcceleration;
-		}
+		if (CurrentVelocity.Y != 0)
+			vForce.Y += fAcceleration * (CurrentVelocity.Y / FMath::Abs(CurrentVelocity.Y));
 		else
-		{
 			vForce.Y -= vForce.Y / fDrag;
-		}
 		vForce.Y = FMath::Clamp(vForce.Y, -fSpeed, fSpeed);
 
 		FVector NewLocation = GetActorLocation() + (vForce * DeltaTime);
