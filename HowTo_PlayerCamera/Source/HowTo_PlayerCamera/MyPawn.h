@@ -38,4 +38,12 @@ public:
 	//입력 변수
 	FVector CurrentVelocity;
 	bool bGrowing;
+
+	FVector vForce;
+	UPROPERTY(EditAnywhere)
+		float fSpeed;
+	UPROPERTY(EditAnywhere)
+		float fAcceleration;
+	UPROPERTY(EditAnywhere)
+		float fDrag;
 };

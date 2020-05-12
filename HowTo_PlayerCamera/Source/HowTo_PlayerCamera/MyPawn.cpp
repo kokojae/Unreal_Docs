@@ -23,6 +23,10 @@ AMyPawn::AMyPawn()
 	OurCamera->SetRelativeLocation(FVector(-250.0f, 0.0f, 250.0f));
 	OurCamera->SetRelativeRotation(FRotator(-45.0f, 0.0f, 0.0f));
 	OurVisibleComponent->SetupAttachment(RootComponent);
+
+	fSpeed = 100.0f;
+	fAcceleration = 5.0f;
+	fDrag = 20.0f;
 }
 
 // Called when the game starts or when spawned
@@ -57,11 +61,36 @@ void AMyPawn::Tick(float DeltaTime)
 
 	// "MoveX" 와 "MoveY" 축에 따라 이동을 처리합니다
 	{
-		if (!CurrentVelocity.IsZero())
+		if (CurrentVelocity.X > 0)
 		{
-			FVector NewLocation = GetActorLocation() + (CurrentVelocity * DeltaTime);
-			SetActorLocation(NewLocation);
+				vForce.X += fAcceleration;
 		}
+		else if (CurrentVelocity.X < 0)
+		{
+				vForce.X -= fAcceleration;
+		}
+		else
+		{
+			vForce.X -= vForce.X / fDrag;
+		}
+		vForce.X = FMath::Clamp(vForce.X, -fSpeed, fSpeed);
+
+		if (CurrentVelocity.Y > 0)
+		{
+			vForce.Y += fAcceleration;
+		}
+		else if (CurrentVelocity.Y < 0)
+		{
+			vForce.Y -= fAcceleration;
+		}
+		else
+		{
+			vForce.Y -= vForce.Y / fDrag;
+		}
+		vForce.Y = FMath::Clamp(vForce.Y, -fSpeed, fSpeed);
+
+		FVector NewLocation = GetActorLocation() + (vForce * DeltaTime);
+		SetActorLocation(NewLocation);
 	}
 }
 

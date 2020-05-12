@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeHowTo_PlayerCamera_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xE2D47948,
+				0xE30D53E8,
 				0x4053F3BA,
 				METADATA_PARAMS(nullptr, 0)
 			};
