@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "HowTo_VTE",
+			"Path": "D:\\WorkOutput\\Unreal_Docs\\HowTo_VTE\\Source\\HowTo_VTE.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HowTo_VTEEditor",
+			"Path": "D:\\WorkOutput\\Unreal_Docs\\HowTo_VTE\\Source\\HowTo_VTEEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

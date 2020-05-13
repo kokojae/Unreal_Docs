@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HowTo_VTE.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{0A2462C1-7D4B-44E2-B0F7-63676BA8BCD5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HowTo_VTE.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HowTo_VTEEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{026B157E-0A9F-46B5-AF42-F8137E776F7E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HowTo_VTE">
+      <UniqueIdentifier>{30BD8F75-CE2C-4C88-9564-D4F40CB9C6A4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HowTo_VTE\HowTo_VTE.Build.cs">
+      <Filter>Source\HowTo_VTE</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HowTo_VTE\HowTo_VTE.cpp">
+      <Filter>Source\HowTo_VTE</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HowTo_VTE\HowTo_VTE.h">
+      <Filter>Source\HowTo_VTE</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HowTo_VTE\HowTo_VTEGameModeBase.cpp">
+      <Filter>Source\HowTo_VTE</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HowTo_VTE\HowTo_VTEGameModeBase.h">
+      <Filter>Source\HowTo_VTE</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

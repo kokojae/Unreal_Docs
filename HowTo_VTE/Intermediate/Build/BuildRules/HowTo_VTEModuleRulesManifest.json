@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\WorkOutput\\Unreal_Docs\\HowTo_VTE\\Source\\HowTo_VTE\\HowTo_VTE.Build.cs",
+		"D:\\WorkOutput\\Unreal_Docs\\HowTo_VTE\\Source\\HowTo_VTE.Target.cs",
+		"D:\\WorkOutput\\Unreal_Docs\\HowTo_VTE\\Source\\HowTo_VTEEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.3"
+}
