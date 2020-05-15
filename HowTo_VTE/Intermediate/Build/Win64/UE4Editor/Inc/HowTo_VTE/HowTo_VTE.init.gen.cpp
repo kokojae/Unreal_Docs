@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeHowTo_VTE_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xA638DB8B,
+				0x5CCEABDF,
 				0x2AE9018E,
 				METADATA_PARAMS(nullptr, 0)
 			};

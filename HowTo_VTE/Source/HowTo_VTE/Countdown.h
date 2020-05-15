@@ -25,6 +25,8 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	// 카운트 다운이 실행되는 시간 (초)
+	// How long, in seconds, the countdown will run
+	UPROPERTY(EditAnywhere)
 	int32 CountdownTime;
 	UTextRenderComponent* CountdownText;
 	void UpdateTimerDisplay();
