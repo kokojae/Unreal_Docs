@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -86,7 +86,7 @@ void EmptyLinkFunctionForGeneratedCodeFloatingActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFloatingActor, 1817541014);
+	IMPLEMENT_CLASS(AFloatingActor, 2033621704);
 	template<> UNREAL_DOCS_API UClass* StaticClass<AFloatingActor>()
 	{
 		return AFloatingActor::StaticClass();

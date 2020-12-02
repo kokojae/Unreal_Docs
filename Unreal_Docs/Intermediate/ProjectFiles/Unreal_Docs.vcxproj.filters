@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Unreal_Docs.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{EF492464-11B2-43B9-9ED3-B9B05B857FBD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Unreal_Docs.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Unreal_DocsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{6C0C7C97-1E69-4C70-AC57-0CE24E995922}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Unreal_Docs">
+      <UniqueIdentifier>{E9E4D7F5-0A32-4AA9-9D4F-B82A9812A9F7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Unreal_Docs\FloatingActor.cpp">
+      <Filter>Source\Unreal_Docs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal_Docs\FloatingActor.h">
+      <Filter>Source\Unreal_Docs</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Unreal_Docs\Unreal_Docs.Build.cs">
+      <Filter>Source\Unreal_Docs</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Unreal_Docs\Unreal_Docs.cpp">
+      <Filter>Source\Unreal_Docs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal_Docs\Unreal_Docs.h">
+      <Filter>Source\Unreal_Docs</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Unreal_Docs\Unreal_DocsGameModeBase.cpp">
+      <Filter>Source\Unreal_Docs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Unreal_Docs\Unreal_DocsGameModeBase.h">
+      <Filter>Source\Unreal_Docs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
