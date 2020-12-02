@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeHowTo_AutoCameraGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHowTo_AutoCameraGameModeBase, 2028357623);
+	IMPLEMENT_CLASS(AHowTo_AutoCameraGameModeBase, 191003127);
 	template<> HOWTO_AUTOCAMERA_API UClass* StaticClass<AHowTo_AutoCameraGameModeBase>()
 	{
 		return AHowTo_AutoCameraGameModeBase::StaticClass();

@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -98,7 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeCraneActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACraneActor, 1538182929);
+	IMPLEMENT_CLASS(ACraneActor, 2213097194);
 	template<> HOWTO_AUTOCAMERA_API UClass* StaticClass<ACraneActor>()
 	{
 		return ACraneActor::StaticClass();

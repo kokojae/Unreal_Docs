@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -98,7 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeDollyActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADollyActor, 2132166566);
+	IMPLEMENT_CLASS(ADollyActor, 3186801769);
 	template<> HOWTO_AUTOCAMERA_API UClass* StaticClass<ADollyActor>()
 	{
 		return ADollyActor::StaticClass();
