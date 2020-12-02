@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\HowTo_VTE.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8C86CF1B-FBD7-4EAF-A9A4-C1FAAC623E02}</UniqueIdentifier>
+      <UniqueIdentifier>{0D271954-76B3-40E3-B8C6-8C2685092F01}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HowTo_VTE.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5147B3E0-AFB4-44B5-90CA-4DA8C34775C0}</UniqueIdentifier>
+      <UniqueIdentifier>{81BE415C-BDF1-443A-9D73-807E8273CD12}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HowTo_VTE">
-      <UniqueIdentifier>{41EFA0AD-5CD7-45EC-A808-299FE8C98F1D}</UniqueIdentifier>
+      <UniqueIdentifier>{CDEE8FE8-9B36-4354-85E8-B70D389C3035}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HowTo_VTE\Countdown.cpp">
       <Filter>Source\HowTo_VTE</Filter>

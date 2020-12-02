@@ -1,2 +1,2 @@
-D:\WorkOutput\Unreal_Docs\HowTo_VTE\Intermediate\Build\Win64\UE4Editor\Development\HowTo_VTE\Definitions.HowTo_VTE.h
-D:\WorkOutput\Unreal_Docs\HowTo_VTE\Source\HowTo_VTE\HowTo_VTE.h
+C:\Project\Unreal_Docs\HowTo_VTE\Intermediate\Build\Win64\UE4Editor\Development\HowTo_VTE\Definitions.HowTo_VTE.h
+C:\Project\Unreal_Docs\HowTo_VTE\Source\HowTo_VTE\HowTo_VTE.h

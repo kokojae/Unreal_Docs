@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeHowTo_VTEGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHowTo_VTEGameModeBase, 3893804545);
+	IMPLEMENT_CLASS(AHowTo_VTEGameModeBase, 88717305);
 	template<> HOWTO_VTE_API UClass* StaticClass<AHowTo_VTEGameModeBase>()
 	{
 		return AHowTo_VTEGameModeBase::StaticClass();
