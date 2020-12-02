@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -125,7 +125,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyPawn, 185535694);
+	IMPLEMENT_CLASS(AMyPawn, 3553757022);
 	template<> HOWTO_PLAYERCAMERA_API UClass* StaticClass<AMyPawn>()
 	{
 		return AMyPawn::StaticClass();

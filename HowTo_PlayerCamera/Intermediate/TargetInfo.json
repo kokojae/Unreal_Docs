@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "HowTo_PlayerCamera",
-			"Path": "D:\\WorkOutput\\Unreal_Docs\\HowTo_PlayerCamera\\Source\\HowTo_PlayerCamera.Target.cs",
+			"Path": "C:\\Project\\Unreal_Docs\\HowTo_PlayerCamera\\Source\\HowTo_PlayerCamera.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "HowTo_PlayerCameraEditor",
-			"Path": "D:\\WorkOutput\\Unreal_Docs\\HowTo_PlayerCamera\\Source\\HowTo_PlayerCameraEditor.Target.cs",
+			"Path": "C:\\Project\\Unreal_Docs\\HowTo_PlayerCamera\\Source\\HowTo_PlayerCameraEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\HowTo_PlayerCamera.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BC1450A8-A46F-439B-AA7D-CF799D0053AF}</UniqueIdentifier>
+      <UniqueIdentifier>{82411F0C-ED97-4DAC-AB58-15971D174398}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HowTo_PlayerCamera.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{674F53E6-4679-466D-8F32-2682D1439F51}</UniqueIdentifier>
+      <UniqueIdentifier>{6547C020-3702-4504-97A8-57FB07820012}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\HowTo_PlayerCamera">
-      <UniqueIdentifier>{E5CE22B8-CC7D-4255-9C5F-915C007D2045}</UniqueIdentifier>
+      <UniqueIdentifier>{48F80B2E-AFF3-4F83-8A4F-B55992AECAAD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HowTo_PlayerCamera\HowTo_PlayerCamera.Build.cs">
       <Filter>Source\HowTo_PlayerCamera</Filter>
@@ -41,15 +44,11 @@
     <ClInclude Include="..\..\Source\HowTo_PlayerCamera\HowTo_PlayerCameraGameModeBase.h">
       <Filter>Source\HowTo_PlayerCamera</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\HowTo_PlayerCamera\MyPawn.h">
-      <Filter>Source\HowTo_PlayerCamera</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\HowTo_PlayerCamera\MyPawn.cpp">
       <Filter>Source\HowTo_PlayerCamera</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\HowTo_PlayerCamera\MyPawn.h">
+      <Filter>Source\HowTo_PlayerCamera</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

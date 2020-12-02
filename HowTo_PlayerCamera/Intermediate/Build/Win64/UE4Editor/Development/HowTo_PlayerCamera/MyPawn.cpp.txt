@@ -1,5 +1,5 @@
-D:\WorkOutput\Unreal_Docs\HowTo_PlayerCamera\Intermediate\Build\Win64\UE4Editor\Development\HowTo_PlayerCamera\Definitions.HowTo_PlayerCamera.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
-D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
-D:\WorkOutput\Unreal_Docs\HowTo_PlayerCamera\Source\HowTo_PlayerCamera\MyPawn.h
-D:\WorkOutput\Unreal_Docs\HowTo_PlayerCamera\Intermediate\Build\Win64\UE4Editor\Inc\HowTo_PlayerCamera\MyPawn.generated.h
+C:\Project\Unreal_Docs\HowTo_PlayerCamera\Intermediate\Build\Win64\UE4Editor\Development\HowTo_PlayerCamera\Definitions.HowTo_PlayerCamera.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+C:\Project\Unreal_Docs\HowTo_PlayerCamera\Source\HowTo_PlayerCamera\MyPawn.h
+C:\Project\Unreal_Docs\HowTo_PlayerCamera\Intermediate\Build\Win64\UE4Editor\Inc\HowTo_PlayerCamera\MyPawn.generated.h

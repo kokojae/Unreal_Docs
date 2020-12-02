@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\WorkOutput\\Unreal_Docs\\HowTo_PlayerCamera\\Source\\HowTo_PlayerCamera\\HowTo_PlayerCamera.Build.cs",
-		"D:\\WorkOutput\\Unreal_Docs\\HowTo_PlayerCamera\\Source\\HowTo_PlayerCamera.Target.cs",
-		"D:\\WorkOutput\\Unreal_Docs\\HowTo_PlayerCamera\\Source\\HowTo_PlayerCameraEditor.Target.cs"
+		"C:\\Project\\Unreal_Docs\\HowTo_PlayerCamera\\Source\\HowTo_PlayerCamera\\HowTo_PlayerCamera.Build.cs",
+		"C:\\Project\\Unreal_Docs\\HowTo_PlayerCamera\\Source\\HowTo_PlayerCamera.Target.cs",
+		"C:\\Project\\Unreal_Docs\\HowTo_PlayerCamera\\Source\\HowTo_PlayerCameraEditor.Target.cs"
 	],
-	"EngineVersion": "4.24.3"
+	"EngineVersion": "4.25.4"
 }
