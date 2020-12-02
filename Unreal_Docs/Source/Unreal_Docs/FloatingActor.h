@@ -26,5 +26,5 @@ public:
 	float RunningTime;
 
 	UPROPERTY(EditAnyWhere)
-		float Speed;
+	float Speed;
 };
